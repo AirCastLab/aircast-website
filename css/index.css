@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
   padding: 0;
   margin: 0;
@@ -14,6 +16,7 @@ ul {
 
 body {
   min-width: 1140px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .color-75de73 {
@@ -267,6 +270,10 @@ body {
   text-align: center;
   line-height: 400px;
   vertical-align: top;
+}
+
+.supported-platforms .subject i {
+  margin-right: 8px;
 }
 
 .supported-platforms .platforms {
